@@ -1,0 +1,12 @@
+﻿INSERT INTO extrak VALUES('Ablak', 'Fólia', 15000, 'Fekete', 1);
+INSERT INTO extrak VALUES('Ablak', 'Légterelő', 23000, 'Fekete', 1);
+INSERT INTO extrak VALUES('Ablak', 'Légterelő', 18000, 'Rózsaszín', 1);
+INSERT INTO extrak VALUES('Matrica', 'Adidas', 10000, 'Nincs', 1);
+INSERT INTO extrak VALUES('Matrica', 'BylatCave', 666, 'Nincs', 1);
+INSERT INTO extrak VALUES('Matrica', 'Hardbass', 254, 'Nincs', 1);
+INSERT INTO extrak VALUES('Légterelő', 'Nagyon zsír szárny', 50000, 'Fekete', 0);
+INSERT INTO extrak VALUES('Légterelő', 'Nagyon kaki szárny', 14000, 'Barna', 0);
+INSERT INTO extrak VALUES('Vezérlés', 'Tolató Radar', 723151, 'Nincs', 0);
+INSERT INTO extrak VALUES('Vezérlés', 'Turbó', 250000, 'Nincs', 0);
+INSERT INTO extrak VALUES('Antenna', 'Király antenna', 45000, 'Nincs', 0);
+INSERT INTO extrak VALUES('Antenna', 'Kaki antenna', 10000, 'Nincs', 0);

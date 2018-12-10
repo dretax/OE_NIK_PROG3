@@ -1,0 +1,177 @@
+\hypertarget{class_car_shop_1_1_repository_1_1_extra_repository}{}\section{Car\+Shop.\+Repository.\+Extra\+Repository Class Reference}
+\label{class_car_shop_1_1_repository_1_1_extra_repository}\index{Car\+Shop.\+Repository.\+Extra\+Repository@{Car\+Shop.\+Repository.\+Extra\+Repository}}
+
+
+Handles the extra\textquotesingle{}s repository functions.  
+
+
+Inheritance diagram for Car\+Shop.\+Repository.\+Extra\+Repository\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_car_shop_1_1_repository_1_1_extra_repository}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual I\+Queryable$<$ \mbox{\hyperlink{class_car_shop_1_1_data_1_1extrak}{extrak}} $>$ \mbox{\hyperlink{class_car_shop_1_1_repository_1_1_extra_repository_a0a92d950f546db179a19d08e0dc4a1c5}{Get\+All}} ()
+\begin{DoxyCompactList}\small\item\em Returns all the extras from the db. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_car_shop_1_1_repository_1_1_extra_repository_a9d9b595b2641d3eb6674979c1aded4a2}{Update}} (int id, string categoryname, string name, int price, string color, bool canbeusedmoretimes)
+\begin{DoxyCompactList}\small\item\em Updates the extrak\textquotesingle{}s values with the given parameters. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_car_shop_1_1_repository_1_1_extra_repository_a52a8367258e2eb413f8160a040c6ac61}{Insert}} (string categoryname, string name, int price, string color, bool canbeusedmoretimes)
+\begin{DoxyCompactList}\small\item\em Inserts Extra into the DB. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_car_shop_1_1_repository_1_1_extra_repository_ac89e3ff578a01c619c5767a2f10e45fb}{Delete}} (int id)
+\begin{DoxyCompactList}\small\item\em Deletes extra from the repository. \end{DoxyCompactList}\item 
+String\+Builder \mbox{\hyperlink{class_car_shop_1_1_repository_1_1_extra_repository_af2f4e893243faab043677e5df69b822d}{Get\+Table\+Contents}} ()
+\begin{DoxyCompactList}\small\item\em Returns the extra repository as a string. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_car_shop_1_1_repository_1_1_extra_repository_aaaed7529b9267af203071a9f22d00b44}{Get\+Average\+For\+Extra\+Color}} (string color)
+\begin{DoxyCompactList}\small\item\em Gets the average for the extra color. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_car_shop_1_1_repository_1_1_extra_repository_ab50b602e032ffe351ff2e823e7de75f6}{Check\+If\+Extra\+I\+D\+Exist}} (int id)
+\begin{DoxyCompactList}\small\item\em Checks if the extra exists. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Handles the extra\textquotesingle{}s repository functions. 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_car_shop_1_1_repository_1_1_extra_repository_ab50b602e032ffe351ff2e823e7de75f6}\label{class_car_shop_1_1_repository_1_1_extra_repository_ab50b602e032ffe351ff2e823e7de75f6}} 
+\index{Car\+Shop\+::\+Repository\+::\+Extra\+Repository@{Car\+Shop\+::\+Repository\+::\+Extra\+Repository}!Check\+If\+Extra\+I\+D\+Exist@{Check\+If\+Extra\+I\+D\+Exist}}
+\index{Check\+If\+Extra\+I\+D\+Exist@{Check\+If\+Extra\+I\+D\+Exist}!Car\+Shop\+::\+Repository\+::\+Extra\+Repository@{Car\+Shop\+::\+Repository\+::\+Extra\+Repository}}
+\subsubsection{\texorpdfstring{Check\+If\+Extra\+I\+D\+Exist()}{CheckIfExtraIDExist()}}
+{\footnotesize\ttfamily bool Car\+Shop.\+Repository.\+Extra\+Repository.\+Check\+If\+Extra\+I\+D\+Exist (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Checks if the extra exists. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & id.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True/\+False.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_car_shop_1_1_repository_1_1_extra_repository_ac89e3ff578a01c619c5767a2f10e45fb}\label{class_car_shop_1_1_repository_1_1_extra_repository_ac89e3ff578a01c619c5767a2f10e45fb}} 
+\index{Car\+Shop\+::\+Repository\+::\+Extra\+Repository@{Car\+Shop\+::\+Repository\+::\+Extra\+Repository}!Delete@{Delete}}
+\index{Delete@{Delete}!Car\+Shop\+::\+Repository\+::\+Extra\+Repository@{Car\+Shop\+::\+Repository\+::\+Extra\+Repository}}
+\subsubsection{\texorpdfstring{Delete()}{Delete()}}
+{\footnotesize\ttfamily bool Car\+Shop.\+Repository.\+Extra\+Repository.\+Delete (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Deletes extra from the repository. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & id.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True/\+False.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_car_shop_1_1_repository_1_1_extra_repository_a0a92d950f546db179a19d08e0dc4a1c5}\label{class_car_shop_1_1_repository_1_1_extra_repository_a0a92d950f546db179a19d08e0dc4a1c5}} 
+\index{Car\+Shop\+::\+Repository\+::\+Extra\+Repository@{Car\+Shop\+::\+Repository\+::\+Extra\+Repository}!Get\+All@{Get\+All}}
+\index{Get\+All@{Get\+All}!Car\+Shop\+::\+Repository\+::\+Extra\+Repository@{Car\+Shop\+::\+Repository\+::\+Extra\+Repository}}
+\subsubsection{\texorpdfstring{Get\+All()}{GetAll()}}
+{\footnotesize\ttfamily virtual I\+Queryable$<$\mbox{\hyperlink{class_car_shop_1_1_data_1_1extrak}{extrak}}$>$ Car\+Shop.\+Repository.\+Extra\+Repository.\+Get\+All (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Returns all the extras from the db. 
+
+\begin{DoxyReturn}{Returns}
+extrak.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_car_shop_1_1_repository_1_1_extra_repository_aaaed7529b9267af203071a9f22d00b44}\label{class_car_shop_1_1_repository_1_1_extra_repository_aaaed7529b9267af203071a9f22d00b44}} 
+\index{Car\+Shop\+::\+Repository\+::\+Extra\+Repository@{Car\+Shop\+::\+Repository\+::\+Extra\+Repository}!Get\+Average\+For\+Extra\+Color@{Get\+Average\+For\+Extra\+Color}}
+\index{Get\+Average\+For\+Extra\+Color@{Get\+Average\+For\+Extra\+Color}!Car\+Shop\+::\+Repository\+::\+Extra\+Repository@{Car\+Shop\+::\+Repository\+::\+Extra\+Repository}}
+\subsubsection{\texorpdfstring{Get\+Average\+For\+Extra\+Color()}{GetAverageForExtraColor()}}
+{\footnotesize\ttfamily float Car\+Shop.\+Repository.\+Extra\+Repository.\+Get\+Average\+For\+Extra\+Color (\begin{DoxyParamCaption}\item[{string}]{color }\end{DoxyParamCaption})}
+
+
+
+Gets the average for the extra color. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em color} & color.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+float.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_car_shop_1_1_repository_1_1_extra_repository_af2f4e893243faab043677e5df69b822d}\label{class_car_shop_1_1_repository_1_1_extra_repository_af2f4e893243faab043677e5df69b822d}} 
+\index{Car\+Shop\+::\+Repository\+::\+Extra\+Repository@{Car\+Shop\+::\+Repository\+::\+Extra\+Repository}!Get\+Table\+Contents@{Get\+Table\+Contents}}
+\index{Get\+Table\+Contents@{Get\+Table\+Contents}!Car\+Shop\+::\+Repository\+::\+Extra\+Repository@{Car\+Shop\+::\+Repository\+::\+Extra\+Repository}}
+\subsubsection{\texorpdfstring{Get\+Table\+Contents()}{GetTableContents()}}
+{\footnotesize\ttfamily String\+Builder Car\+Shop.\+Repository.\+Extra\+Repository.\+Get\+Table\+Contents (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returns the extra repository as a string. 
+
+\begin{DoxyReturn}{Returns}
+String\+Builder.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_car_shop_1_1_repository_1_1_extra_repository_a52a8367258e2eb413f8160a040c6ac61}\label{class_car_shop_1_1_repository_1_1_extra_repository_a52a8367258e2eb413f8160a040c6ac61}} 
+\index{Car\+Shop\+::\+Repository\+::\+Extra\+Repository@{Car\+Shop\+::\+Repository\+::\+Extra\+Repository}!Insert@{Insert}}
+\index{Insert@{Insert}!Car\+Shop\+::\+Repository\+::\+Extra\+Repository@{Car\+Shop\+::\+Repository\+::\+Extra\+Repository}}
+\subsubsection{\texorpdfstring{Insert()}{Insert()}}
+{\footnotesize\ttfamily bool Car\+Shop.\+Repository.\+Extra\+Repository.\+Insert (\begin{DoxyParamCaption}\item[{string}]{categoryname,  }\item[{string}]{name,  }\item[{int}]{price,  }\item[{string}]{color,  }\item[{bool}]{canbeusedmoretimes }\end{DoxyParamCaption})}
+
+
+
+Inserts Extra into the DB. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em categoryname} & cname.\\
+\hline
+{\em name} & name.\\
+\hline
+{\em price} & price.\\
+\hline
+{\em color} & color.\\
+\hline
+{\em canbeusedmoretimes} & canbeused.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True/\+False.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_car_shop_1_1_repository_1_1_extra_repository_a9d9b595b2641d3eb6674979c1aded4a2}\label{class_car_shop_1_1_repository_1_1_extra_repository_a9d9b595b2641d3eb6674979c1aded4a2}} 
+\index{Car\+Shop\+::\+Repository\+::\+Extra\+Repository@{Car\+Shop\+::\+Repository\+::\+Extra\+Repository}!Update@{Update}}
+\index{Update@{Update}!Car\+Shop\+::\+Repository\+::\+Extra\+Repository@{Car\+Shop\+::\+Repository\+::\+Extra\+Repository}}
+\subsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily bool Car\+Shop.\+Repository.\+Extra\+Repository.\+Update (\begin{DoxyParamCaption}\item[{int}]{id,  }\item[{string}]{categoryname,  }\item[{string}]{name,  }\item[{int}]{price,  }\item[{string}]{color,  }\item[{bool}]{canbeusedmoretimes }\end{DoxyParamCaption})}
+
+
+
+Updates the extrak\textquotesingle{}s values with the given parameters. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & id.\\
+\hline
+{\em categoryname} & cname.\\
+\hline
+{\em name} & name.\\
+\hline
+{\em price} & price.\\
+\hline
+{\em color} & color.\\
+\hline
+{\em canbeusedmoretimes} & canbeused.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True/\+False.
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+Users/\+Dre\+Ta\+X/\+Documents/\+Visual Studio 2013/\+Prog3\+\_\+\+Beadando/\+C\+S\+H\+A\+R\+P/\+O\+E\+N\+I\+K\+\_\+\+P\+R\+O\+G3\+\_\+2018\+\_\+2\+\_\+\+A\+S4\+D\+C\+D/\+Car\+Shop.\+Repository/Extra\+Repository.\+cs\end{DoxyCompactItemize}

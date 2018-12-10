@@ -1,0 +1,141 @@
+\hypertarget{class_car_shop_1_1_repository_1_1_car_extra_keys_repository}{}\section{Car\+Shop.\+Repository.\+Car\+Extra\+Keys\+Repository Class Reference}
+\label{class_car_shop_1_1_repository_1_1_car_extra_keys_repository}\index{Car\+Shop.\+Repository.\+Car\+Extra\+Keys\+Repository@{Car\+Shop.\+Repository.\+Car\+Extra\+Keys\+Repository}}
+
+
+Switch table repository handler for the project.  
+
+
+Inheritance diagram for Car\+Shop.\+Repository.\+Car\+Extra\+Keys\+Repository\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_car_shop_1_1_repository_1_1_car_extra_keys_repository}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String\+Builder \mbox{\hyperlink{class_car_shop_1_1_repository_1_1_car_extra_keys_repository_af7db447bc763dddf4c0474559fae8619}{Get\+Table\+Contents}} ()
+\begin{DoxyCompactList}\small\item\em Returns the table contents as a string. \end{DoxyCompactList}\item 
+virtual I\+Queryable$<$ \mbox{\hyperlink{class_car_shop_1_1_data_1_1modellextrakapcsolo}{modellextrakapcsolo}} $>$ \mbox{\hyperlink{class_car_shop_1_1_repository_1_1_car_extra_keys_repository_ab2d1626c117c62d3126519c3fa700ab6}{Get\+All}} ()
+\begin{DoxyCompactList}\small\item\em Returns all switch values from the db. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_car_shop_1_1_repository_1_1_car_extra_keys_repository_aaecebb3f3933fd328b4e8d7cf99e06e2}{Delete}} (int id)
+\begin{DoxyCompactList}\small\item\em Deletes the switch from the db. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_car_shop_1_1_repository_1_1_car_extra_keys_repository_a2b68866de9559d8363b571e1dc79e877}{Insert}} (int carid, int extraid)
+\begin{DoxyCompactList}\small\item\em Inserts a switch into the db. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_car_shop_1_1_repository_1_1_car_extra_keys_repository_ab05a8666dae9c172ad83dd8e1b6f0487}{Does\+Car\+Exist}} (int id)
+\begin{DoxyCompactList}\small\item\em Checks if the car switch exists in the db. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_car_shop_1_1_repository_1_1_car_extra_keys_repository_a0b75f82c4df05804e0f217cb43d342c2}{Does\+Extra\+Exist}} (int id)
+\begin{DoxyCompactList}\small\item\em Checks if the extra switch exists in the db. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Switch table repository handler for the project. 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_car_shop_1_1_repository_1_1_car_extra_keys_repository_aaecebb3f3933fd328b4e8d7cf99e06e2}\label{class_car_shop_1_1_repository_1_1_car_extra_keys_repository_aaecebb3f3933fd328b4e8d7cf99e06e2}} 
+\index{Car\+Shop\+::\+Repository\+::\+Car\+Extra\+Keys\+Repository@{Car\+Shop\+::\+Repository\+::\+Car\+Extra\+Keys\+Repository}!Delete@{Delete}}
+\index{Delete@{Delete}!Car\+Shop\+::\+Repository\+::\+Car\+Extra\+Keys\+Repository@{Car\+Shop\+::\+Repository\+::\+Car\+Extra\+Keys\+Repository}}
+\subsubsection{\texorpdfstring{Delete()}{Delete()}}
+{\footnotesize\ttfamily bool Car\+Shop.\+Repository.\+Car\+Extra\+Keys\+Repository.\+Delete (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Deletes the switch from the db. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & id.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True/\+False.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_car_shop_1_1_repository_1_1_car_extra_keys_repository_ab05a8666dae9c172ad83dd8e1b6f0487}\label{class_car_shop_1_1_repository_1_1_car_extra_keys_repository_ab05a8666dae9c172ad83dd8e1b6f0487}} 
+\index{Car\+Shop\+::\+Repository\+::\+Car\+Extra\+Keys\+Repository@{Car\+Shop\+::\+Repository\+::\+Car\+Extra\+Keys\+Repository}!Does\+Car\+Exist@{Does\+Car\+Exist}}
+\index{Does\+Car\+Exist@{Does\+Car\+Exist}!Car\+Shop\+::\+Repository\+::\+Car\+Extra\+Keys\+Repository@{Car\+Shop\+::\+Repository\+::\+Car\+Extra\+Keys\+Repository}}
+\subsubsection{\texorpdfstring{Does\+Car\+Exist()}{DoesCarExist()}}
+{\footnotesize\ttfamily bool Car\+Shop.\+Repository.\+Car\+Extra\+Keys\+Repository.\+Does\+Car\+Exist (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Checks if the car switch exists in the db. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & id.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True/\+False.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_car_shop_1_1_repository_1_1_car_extra_keys_repository_a0b75f82c4df05804e0f217cb43d342c2}\label{class_car_shop_1_1_repository_1_1_car_extra_keys_repository_a0b75f82c4df05804e0f217cb43d342c2}} 
+\index{Car\+Shop\+::\+Repository\+::\+Car\+Extra\+Keys\+Repository@{Car\+Shop\+::\+Repository\+::\+Car\+Extra\+Keys\+Repository}!Does\+Extra\+Exist@{Does\+Extra\+Exist}}
+\index{Does\+Extra\+Exist@{Does\+Extra\+Exist}!Car\+Shop\+::\+Repository\+::\+Car\+Extra\+Keys\+Repository@{Car\+Shop\+::\+Repository\+::\+Car\+Extra\+Keys\+Repository}}
+\subsubsection{\texorpdfstring{Does\+Extra\+Exist()}{DoesExtraExist()}}
+{\footnotesize\ttfamily bool Car\+Shop.\+Repository.\+Car\+Extra\+Keys\+Repository.\+Does\+Extra\+Exist (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Checks if the extra switch exists in the db. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & id.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True/\+False.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_car_shop_1_1_repository_1_1_car_extra_keys_repository_ab2d1626c117c62d3126519c3fa700ab6}\label{class_car_shop_1_1_repository_1_1_car_extra_keys_repository_ab2d1626c117c62d3126519c3fa700ab6}} 
+\index{Car\+Shop\+::\+Repository\+::\+Car\+Extra\+Keys\+Repository@{Car\+Shop\+::\+Repository\+::\+Car\+Extra\+Keys\+Repository}!Get\+All@{Get\+All}}
+\index{Get\+All@{Get\+All}!Car\+Shop\+::\+Repository\+::\+Car\+Extra\+Keys\+Repository@{Car\+Shop\+::\+Repository\+::\+Car\+Extra\+Keys\+Repository}}
+\subsubsection{\texorpdfstring{Get\+All()}{GetAll()}}
+{\footnotesize\ttfamily virtual I\+Queryable$<$\mbox{\hyperlink{class_car_shop_1_1_data_1_1modellextrakapcsolo}{modellextrakapcsolo}}$>$ Car\+Shop.\+Repository.\+Car\+Extra\+Keys\+Repository.\+Get\+All (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Returns all switch values from the db. 
+
+\begin{DoxyReturn}{Returns}
+modellextrakapcsolo.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_car_shop_1_1_repository_1_1_car_extra_keys_repository_af7db447bc763dddf4c0474559fae8619}\label{class_car_shop_1_1_repository_1_1_car_extra_keys_repository_af7db447bc763dddf4c0474559fae8619}} 
+\index{Car\+Shop\+::\+Repository\+::\+Car\+Extra\+Keys\+Repository@{Car\+Shop\+::\+Repository\+::\+Car\+Extra\+Keys\+Repository}!Get\+Table\+Contents@{Get\+Table\+Contents}}
+\index{Get\+Table\+Contents@{Get\+Table\+Contents}!Car\+Shop\+::\+Repository\+::\+Car\+Extra\+Keys\+Repository@{Car\+Shop\+::\+Repository\+::\+Car\+Extra\+Keys\+Repository}}
+\subsubsection{\texorpdfstring{Get\+Table\+Contents()}{GetTableContents()}}
+{\footnotesize\ttfamily String\+Builder Car\+Shop.\+Repository.\+Car\+Extra\+Keys\+Repository.\+Get\+Table\+Contents (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returns the table contents as a string. 
+
+\begin{DoxyReturn}{Returns}
+String\+Builder.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_car_shop_1_1_repository_1_1_car_extra_keys_repository_a2b68866de9559d8363b571e1dc79e877}\label{class_car_shop_1_1_repository_1_1_car_extra_keys_repository_a2b68866de9559d8363b571e1dc79e877}} 
+\index{Car\+Shop\+::\+Repository\+::\+Car\+Extra\+Keys\+Repository@{Car\+Shop\+::\+Repository\+::\+Car\+Extra\+Keys\+Repository}!Insert@{Insert}}
+\index{Insert@{Insert}!Car\+Shop\+::\+Repository\+::\+Car\+Extra\+Keys\+Repository@{Car\+Shop\+::\+Repository\+::\+Car\+Extra\+Keys\+Repository}}
+\subsubsection{\texorpdfstring{Insert()}{Insert()}}
+{\footnotesize\ttfamily bool Car\+Shop.\+Repository.\+Car\+Extra\+Keys\+Repository.\+Insert (\begin{DoxyParamCaption}\item[{int}]{carid,  }\item[{int}]{extraid }\end{DoxyParamCaption})}
+
+
+
+Inserts a switch into the db. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em carid} & carid.\\
+\hline
+{\em extraid} & extraid.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True/\+False.
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+Users/\+Dre\+Ta\+X/\+Documents/\+Visual Studio 2013/\+Prog3\+\_\+\+Beadando/\+C\+S\+H\+A\+R\+P/\+O\+E\+N\+I\+K\+\_\+\+P\+R\+O\+G3\+\_\+2018\+\_\+2\+\_\+\+A\+S4\+D\+C\+D/\+Car\+Shop.\+Repository/Car\+Extra\+Keys\+Repository.\+cs\end{DoxyCompactItemize}

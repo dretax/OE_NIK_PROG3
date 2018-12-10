@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="carshopdatabaseModel1.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="automarkak">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nev" Type="varchar" MaxLength="20" />
+          <Property Name="orszagnev" Type="varchar" MaxLength="30" />
+          <Property Name="url" Type="varchar" MaxLength="30" />
+          <Property Name="alapitaseve" Type="int" />
+          <Property Name="evesforgalom" Type="int" />
+        </EntityType>
+        <EntityType Name="extrak">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="kategorianev" Type="varchar" MaxLength="50" />
+          <Property Name="nev" Type="varchar" MaxLength="50" />
+          <Property Name="ar" Type="int" />
+          <Property Name="szin" Type="varchar" MaxLength="50" />
+          <Property Name="tobbszor_hasznalhato" Type="tinyint" />
+        </EntityType>
+        <EntityType Name="modellek">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="marka_id" Type="int" />
+          <Property Name="nev" Type="varchar" MaxLength="50" />
+          <Property Name="megjelenesnapja" Type="date" />
+          <Property Name="motorterfogat" Type="int" />
+          <Property Name="loero" Type="int" />
+          <Property Name="alapar" Type="int" />
+        </EntityType>
+        <EntityType Name="modellextrakapcsolo">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="modellid" Type="int" />
+          <Property Name="extraid" Type="int" />
+        </EntityType>
+        <EntityContainer Name="carshopdatabaseModel1StoreContainer">
+          <EntitySet Name="automarkak" EntityType="Self.automarkak" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="extrak" EntityType="Self.extrak" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="modellek" EntityType="Self.modellek" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="modellextrakapcsolo" EntityType="Self.modellextrakapcsolo" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="carshopdatabaseModel1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="automarkak">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="nev" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="orszagnev" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="url" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="alapitaseve" Type="Int32" />
+          <Property Name="evesforgalom" Type="Int32" />
+        </EntityType>
+        <EntityType Name="extrak">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="kategorianev" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="nev" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ar" Type="Int32" />
+          <Property Name="szin" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="tobbszor_hasznalhato" Type="Byte" />
+        </EntityType>
+        <EntityType Name="modellek">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="marka_id" Type="Int32" />
+          <Property Name="nev" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="megjelenesnapja" Type="DateTime" Precision="0" />
+          <Property Name="motorterfogat" Type="Int32" />
+          <Property Name="loero" Type="Int32" />
+          <Property Name="alapar" Type="Int32" />
+        </EntityType>
+        <EntityType Name="modellextrakapcsolo">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="modellid" Type="Int32" />
+          <Property Name="extraid" Type="Int32" />
+        </EntityType>
+        <EntityContainer Name="carshopdatabaseEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="automarkak" EntityType="Self.automarkak" />
+          <EntitySet Name="extrak" EntityType="Self.extrak" />
+          <EntitySet Name="modellek" EntityType="Self.modellek" />
+          <EntitySet Name="modellextrakapcsolo" EntityType="Self.modellextrakapcsolo" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="carshopdatabaseModel1StoreContainer" CdmEntityContainer="carshopdatabaseEntities1">
+          <EntitySetMapping Name="automarkak">
+            <EntityTypeMapping TypeName="carshopdatabaseModel1.automarkak">
+              <MappingFragment StoreEntitySet="automarkak">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="nev" ColumnName="nev" />
+                <ScalarProperty Name="orszagnev" ColumnName="orszagnev" />
+                <ScalarProperty Name="url" ColumnName="url" />
+                <ScalarProperty Name="alapitaseve" ColumnName="alapitaseve" />
+                <ScalarProperty Name="evesforgalom" ColumnName="evesforgalom" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="extrak">
+            <EntityTypeMapping TypeName="carshopdatabaseModel1.extrak">
+              <MappingFragment StoreEntitySet="extrak">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="kategorianev" ColumnName="kategorianev" />
+                <ScalarProperty Name="nev" ColumnName="nev" />
+                <ScalarProperty Name="ar" ColumnName="ar" />
+                <ScalarProperty Name="szin" ColumnName="szin" />
+                <ScalarProperty Name="tobbszor_hasznalhato" ColumnName="tobbszor_hasznalhato" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="modellek">
+            <EntityTypeMapping TypeName="carshopdatabaseModel1.modellek">
+              <MappingFragment StoreEntitySet="modellek">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="marka_id" ColumnName="marka_id" />
+                <ScalarProperty Name="nev" ColumnName="nev" />
+                <ScalarProperty Name="megjelenesnapja" ColumnName="megjelenesnapja" />
+                <ScalarProperty Name="motorterfogat" ColumnName="motorterfogat" />
+                <ScalarProperty Name="loero" ColumnName="loero" />
+                <ScalarProperty Name="alapar" ColumnName="alapar" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="modellextrakapcsolo">
+            <EntityTypeMapping TypeName="carshopdatabaseModel1.modellextrakapcsolo">
+              <MappingFragment StoreEntitySet="modellextrakapcsolo">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="modellid" ColumnName="modellid" />
+                <ScalarProperty Name="extraid" ColumnName="extraid" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

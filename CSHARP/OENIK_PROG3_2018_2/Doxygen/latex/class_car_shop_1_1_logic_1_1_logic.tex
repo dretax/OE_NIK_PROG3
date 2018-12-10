@@ -1,0 +1,629 @@
+\hypertarget{class_car_shop_1_1_logic_1_1_logic}{}\section{Car\+Shop.\+Logic.\+Logic Class Reference}
+\label{class_car_shop_1_1_logic_1_1_logic}\index{Car\+Shop.\+Logic.\+Logic@{Car\+Shop.\+Logic.\+Logic}}
+
+
+Contains the logic database methods.  
+
+
+Inheritance diagram for Car\+Shop.\+Logic.\+Logic\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_car_shop_1_1_logic_1_1_logic}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_car_shop_1_1_logic_1_1_logic_af006d6f092e7d6adabc05cb8e546d829}{Logic}} ()
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the \mbox{\hyperlink{class_car_shop_1_1_logic_1_1_logic}{Logic}} class. Creates the logic, and initializes it. \end{DoxyCompactList}\item 
+List$<$ string $>$ \mbox{\hyperlink{class_car_shop_1_1_logic_1_1_logic_a91f3a4a292e1869a5bdb917dd2378435}{Get\+All\+Table\+Names}} ()
+\begin{DoxyCompactList}\small\item\em Returns all table names from the DB. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_car_shop_1_1_logic_1_1_logic_a0a2f1ef0aa8204e30e8b3f86b1906a8d}{Update\+Car\+Data}} (int iD, int brandid, string name, Date\+Time releasedate, int enginevolume, int horsepower, int baseprice)
+\begin{DoxyCompactList}\small\item\em Update\textquotesingle{}s car data to the specified parameters. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_car_shop_1_1_logic_1_1_logic_ab17048dea509f9de447af1ad960b012c}{Update\+Brand\+Data}} (int iD, string name, string country, string url, int foundation, int annualtraffic)
+\begin{DoxyCompactList}\small\item\em Update\textquotesingle{}s brand data to the specified parameters. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_car_shop_1_1_logic_1_1_logic_ac692faa4c875e4dca31d23a3f71588b8}{Update\+Extra\+Data}} (int iD, string categoryname, string name, int price, string color, bool canbeusedmoretimes)
+\begin{DoxyCompactList}\small\item\em Update\textquotesingle{}s extra data to the specified parameters. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_car_shop_1_1_logic_1_1_logic_a6550f647c3e3ea03f12ef30ce5340efe}{Insert\+Car\+Extra\+Data}} (int carid, int extraid)
+\begin{DoxyCompactList}\small\item\em Inserts cardataextra. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_car_shop_1_1_logic_1_1_logic_a69bae72bc58ca004bb75e39be1f275c8}{Insert\+Car\+Data}} (int brandid, string name, Date\+Time releasedate, int enginevolume, int horsepower, int baseprice)
+\begin{DoxyCompactList}\small\item\em Inserts a car data to the db. \end{DoxyCompactList}\item 
+virtual bool \mbox{\hyperlink{class_car_shop_1_1_logic_1_1_logic_abeb648b7fcd87060c3fcbfeef3cda77f}{Insert\+Brand\+Data}} (string name, string country, string url, int foundation, int annualtraffic)
+\begin{DoxyCompactList}\small\item\em Inserts brand data to the db. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_car_shop_1_1_logic_1_1_logic_a6534bb6d8a60c3afa39c99dd1fe0747b}{Insert\+Extra\+Data}} (string categoryname, string name, int price, string color, bool canbeusedmoretimes)
+\begin{DoxyCompactList}\small\item\em Inserts extra data to the db. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_car_shop_1_1_logic_1_1_logic_ad5164bc7532cb15395d83f6d22b9b816}{Delete\+Car\+Data}} (int id)
+\begin{DoxyCompactList}\small\item\em Deletes a car data from the db. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_car_shop_1_1_logic_1_1_logic_ac032e87056e5879f8308bc028577dce3}{Delete\+Extra\+Data}} (int id)
+\begin{DoxyCompactList}\small\item\em Deletes extra data from the db. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_car_shop_1_1_logic_1_1_logic_a279fc9fc6ff803ce74bcba0e898ddad4}{Delete\+Brand\+Data}} (int id)
+\begin{DoxyCompactList}\small\item\em Deletes brand from the db. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_car_shop_1_1_logic_1_1_logic_a282e36a6aacd601780f92f47888dcdde}{Delete\+Car\+Extra\+Key}} (int id)
+\begin{DoxyCompactList}\small\item\em Deletes car extra data. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_car_shop_1_1_logic_1_1_logic_a9e52939189a58e143da94181d3d23c9c}{Does\+Car\+Exist}} (int id)
+\begin{DoxyCompactList}\small\item\em Checks if the car exists. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_car_shop_1_1_logic_1_1_logic_aef83ecf9811ba2af99936d03ab95ddb9}{Does\+Extra\+Exist}} (int id)
+\begin{DoxyCompactList}\small\item\em Checks if extra exists. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_car_shop_1_1_logic_1_1_logic_a6f7a2a96646053b01067455ed0b8d0a5}{Check\+If\+Brand\+Exists}} (int id)
+\begin{DoxyCompactList}\small\item\em Checks if the brand exists. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_car_shop_1_1_logic_1_1_logic_aa1e3ab411c53e0498145f1f77cb33766}{Check\+If\+Car\+I\+D\+Exists}} (int id)
+\begin{DoxyCompactList}\small\item\em Checks if the car id exists. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_car_shop_1_1_logic_1_1_logic_a1c3a42d859ae472db17293626b87ff30}{Check\+If\+Extra\+I\+D\+Exists}} (int id)
+\begin{DoxyCompactList}\small\item\em Checks if the extra exits. \end{DoxyCompactList}\item 
+String\+Builder \mbox{\hyperlink{class_car_shop_1_1_logic_1_1_logic_ac41378bc905997f904da5353b20042a0}{Get\+Brands\+Data}} ()
+\begin{DoxyCompactList}\small\item\em Returns the brand data as a string. \end{DoxyCompactList}\item 
+String\+Builder \mbox{\hyperlink{class_car_shop_1_1_logic_1_1_logic_ac829fe0e30078fca2abc5eb64eea4f62}{Get\+Extras\+Data}} ()
+\begin{DoxyCompactList}\small\item\em Returns the extra data as a string. \end{DoxyCompactList}\item 
+String\+Builder \mbox{\hyperlink{class_car_shop_1_1_logic_1_1_logic_a74048c2231e34ae8d86a5357a073f0cd}{Get\+Cars\+Data}} ()
+\begin{DoxyCompactList}\small\item\em Returns the car data as a string. \end{DoxyCompactList}\item 
+String\+Builder \mbox{\hyperlink{class_car_shop_1_1_logic_1_1_logic_adffc5bad6d7ef7a2914626b2c27a75c1}{Get\+Model\+Extra\+Keys\+Data}} ()
+\begin{DoxyCompactList}\small\item\em Returns the model extra data as a string. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_car_shop_1_1_logic_1_1_logic_a267a602b668e129bdf2aba4ce1ea30ed}{Get\+Average\+Amount\+For\+Brand}} (int brandid)
+\begin{DoxyCompactList}\small\item\em Gets the average amount for the brand. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_car_shop_1_1_logic_1_1_logic_ae9538c7d94f55438dd503f82cfe8ac5c}{Get\+Average\+For\+Extra\+Color}} (string color)
+\begin{DoxyCompactList}\small\item\em Gets the average for the extra color. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_car_shop_1_1_logic_1_1_logic_a9bf3e72677516747e386faf557a0e105}{Get\+Average\+Amount\+For\+Brand\+By\+Country}} (string country)
+\begin{DoxyCompactList}\small\item\em Gets the average for the brand by country. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+virtual \mbox{\hyperlink{class_car_shop_1_1_repository_1_1_repository_helper}{Repository\+Helper}} \mbox{\hyperlink{class_car_shop_1_1_logic_1_1_logic_afd4e310134ff008f7726801974519e46}{Helper}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the Repository\+Helper instance. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Contains the logic database methods. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_car_shop_1_1_logic_1_1_logic_af006d6f092e7d6adabc05cb8e546d829}\label{class_car_shop_1_1_logic_1_1_logic_af006d6f092e7d6adabc05cb8e546d829}} 
+\index{Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}!Logic@{Logic}}
+\index{Logic@{Logic}!Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}}
+\subsubsection{\texorpdfstring{Logic()}{Logic()}}
+{\footnotesize\ttfamily Car\+Shop.\+Logic.\+Logic.\+Logic (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Initializes a new instance of the \mbox{\hyperlink{class_car_shop_1_1_logic_1_1_logic}{Logic}} class. Creates the logic, and initializes it. 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_car_shop_1_1_logic_1_1_logic_a6f7a2a96646053b01067455ed0b8d0a5}\label{class_car_shop_1_1_logic_1_1_logic_a6f7a2a96646053b01067455ed0b8d0a5}} 
+\index{Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}!Check\+If\+Brand\+Exists@{Check\+If\+Brand\+Exists}}
+\index{Check\+If\+Brand\+Exists@{Check\+If\+Brand\+Exists}!Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}}
+\subsubsection{\texorpdfstring{Check\+If\+Brand\+Exists()}{CheckIfBrandExists()}}
+{\footnotesize\ttfamily bool Car\+Shop.\+Logic.\+Logic.\+Check\+If\+Brand\+Exists (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Checks if the brand exists. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & id.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True/\+False.
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_car_shop_1_1_logic_1_1_i_logic_a5871000bbf6724abebf701f30113e488}{Car\+Shop.\+Logic.\+I\+Logic}}.
+
+\mbox{\Hypertarget{class_car_shop_1_1_logic_1_1_logic_aa1e3ab411c53e0498145f1f77cb33766}\label{class_car_shop_1_1_logic_1_1_logic_aa1e3ab411c53e0498145f1f77cb33766}} 
+\index{Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}!Check\+If\+Car\+I\+D\+Exists@{Check\+If\+Car\+I\+D\+Exists}}
+\index{Check\+If\+Car\+I\+D\+Exists@{Check\+If\+Car\+I\+D\+Exists}!Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}}
+\subsubsection{\texorpdfstring{Check\+If\+Car\+I\+D\+Exists()}{CheckIfCarIDExists()}}
+{\footnotesize\ttfamily bool Car\+Shop.\+Logic.\+Logic.\+Check\+If\+Car\+I\+D\+Exists (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Checks if the car id exists. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & id.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True/\+False.
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_car_shop_1_1_logic_1_1_i_logic_ab82e00aae902a6d7417b586487568d93}{Car\+Shop.\+Logic.\+I\+Logic}}.
+
+\mbox{\Hypertarget{class_car_shop_1_1_logic_1_1_logic_a1c3a42d859ae472db17293626b87ff30}\label{class_car_shop_1_1_logic_1_1_logic_a1c3a42d859ae472db17293626b87ff30}} 
+\index{Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}!Check\+If\+Extra\+I\+D\+Exists@{Check\+If\+Extra\+I\+D\+Exists}}
+\index{Check\+If\+Extra\+I\+D\+Exists@{Check\+If\+Extra\+I\+D\+Exists}!Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}}
+\subsubsection{\texorpdfstring{Check\+If\+Extra\+I\+D\+Exists()}{CheckIfExtraIDExists()}}
+{\footnotesize\ttfamily bool Car\+Shop.\+Logic.\+Logic.\+Check\+If\+Extra\+I\+D\+Exists (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Checks if the extra exits. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & id.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True/\+False.
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_car_shop_1_1_logic_1_1_i_logic_a86f7d6d049a74365b7bc3e135f11a539}{Car\+Shop.\+Logic.\+I\+Logic}}.
+
+\mbox{\Hypertarget{class_car_shop_1_1_logic_1_1_logic_a279fc9fc6ff803ce74bcba0e898ddad4}\label{class_car_shop_1_1_logic_1_1_logic_a279fc9fc6ff803ce74bcba0e898ddad4}} 
+\index{Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}!Delete\+Brand\+Data@{Delete\+Brand\+Data}}
+\index{Delete\+Brand\+Data@{Delete\+Brand\+Data}!Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}}
+\subsubsection{\texorpdfstring{Delete\+Brand\+Data()}{DeleteBrandData()}}
+{\footnotesize\ttfamily bool Car\+Shop.\+Logic.\+Logic.\+Delete\+Brand\+Data (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Deletes brand from the db. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & id.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True/\+False.
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_car_shop_1_1_logic_1_1_i_logic_aa8a7a73b34402f97bdf72e3162b95996}{Car\+Shop.\+Logic.\+I\+Logic}}.
+
+\mbox{\Hypertarget{class_car_shop_1_1_logic_1_1_logic_ad5164bc7532cb15395d83f6d22b9b816}\label{class_car_shop_1_1_logic_1_1_logic_ad5164bc7532cb15395d83f6d22b9b816}} 
+\index{Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}!Delete\+Car\+Data@{Delete\+Car\+Data}}
+\index{Delete\+Car\+Data@{Delete\+Car\+Data}!Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}}
+\subsubsection{\texorpdfstring{Delete\+Car\+Data()}{DeleteCarData()}}
+{\footnotesize\ttfamily bool Car\+Shop.\+Logic.\+Logic.\+Delete\+Car\+Data (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Deletes a car data from the db. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & id.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True/\+False.
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_car_shop_1_1_logic_1_1_i_logic_ad11a46d5ab973ec4f7c9a56a1fb98907}{Car\+Shop.\+Logic.\+I\+Logic}}.
+
+\mbox{\Hypertarget{class_car_shop_1_1_logic_1_1_logic_a282e36a6aacd601780f92f47888dcdde}\label{class_car_shop_1_1_logic_1_1_logic_a282e36a6aacd601780f92f47888dcdde}} 
+\index{Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}!Delete\+Car\+Extra\+Key@{Delete\+Car\+Extra\+Key}}
+\index{Delete\+Car\+Extra\+Key@{Delete\+Car\+Extra\+Key}!Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}}
+\subsubsection{\texorpdfstring{Delete\+Car\+Extra\+Key()}{DeleteCarExtraKey()}}
+{\footnotesize\ttfamily bool Car\+Shop.\+Logic.\+Logic.\+Delete\+Car\+Extra\+Key (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Deletes car extra data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & id.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True/\+False.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_car_shop_1_1_logic_1_1_logic_ac032e87056e5879f8308bc028577dce3}\label{class_car_shop_1_1_logic_1_1_logic_ac032e87056e5879f8308bc028577dce3}} 
+\index{Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}!Delete\+Extra\+Data@{Delete\+Extra\+Data}}
+\index{Delete\+Extra\+Data@{Delete\+Extra\+Data}!Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}}
+\subsubsection{\texorpdfstring{Delete\+Extra\+Data()}{DeleteExtraData()}}
+{\footnotesize\ttfamily bool Car\+Shop.\+Logic.\+Logic.\+Delete\+Extra\+Data (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Deletes extra data from the db. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & id.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True/\+False.
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_car_shop_1_1_logic_1_1_i_logic_a224a696141bf86a3f16c8ef9d5d4832b}{Car\+Shop.\+Logic.\+I\+Logic}}.
+
+\mbox{\Hypertarget{class_car_shop_1_1_logic_1_1_logic_a9e52939189a58e143da94181d3d23c9c}\label{class_car_shop_1_1_logic_1_1_logic_a9e52939189a58e143da94181d3d23c9c}} 
+\index{Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}!Does\+Car\+Exist@{Does\+Car\+Exist}}
+\index{Does\+Car\+Exist@{Does\+Car\+Exist}!Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}}
+\subsubsection{\texorpdfstring{Does\+Car\+Exist()}{DoesCarExist()}}
+{\footnotesize\ttfamily bool Car\+Shop.\+Logic.\+Logic.\+Does\+Car\+Exist (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Checks if the car exists. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & id.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True/\+False.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_car_shop_1_1_logic_1_1_logic_aef83ecf9811ba2af99936d03ab95ddb9}\label{class_car_shop_1_1_logic_1_1_logic_aef83ecf9811ba2af99936d03ab95ddb9}} 
+\index{Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}!Does\+Extra\+Exist@{Does\+Extra\+Exist}}
+\index{Does\+Extra\+Exist@{Does\+Extra\+Exist}!Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}}
+\subsubsection{\texorpdfstring{Does\+Extra\+Exist()}{DoesExtraExist()}}
+{\footnotesize\ttfamily bool Car\+Shop.\+Logic.\+Logic.\+Does\+Extra\+Exist (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Checks if extra exists. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & id.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True/\+False.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_car_shop_1_1_logic_1_1_logic_a91f3a4a292e1869a5bdb917dd2378435}\label{class_car_shop_1_1_logic_1_1_logic_a91f3a4a292e1869a5bdb917dd2378435}} 
+\index{Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}!Get\+All\+Table\+Names@{Get\+All\+Table\+Names}}
+\index{Get\+All\+Table\+Names@{Get\+All\+Table\+Names}!Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}}
+\subsubsection{\texorpdfstring{Get\+All\+Table\+Names()}{GetAllTableNames()}}
+{\footnotesize\ttfamily List$<$string$>$ Car\+Shop.\+Logic.\+Logic.\+Get\+All\+Table\+Names (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returns all table names from the DB. 
+
+\begin{DoxyReturn}{Returns}
+True/\+False.
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_car_shop_1_1_logic_1_1_i_logic_aee2a118a9a867dbc77901298cf112e02}{Car\+Shop.\+Logic.\+I\+Logic}}.
+
+\mbox{\Hypertarget{class_car_shop_1_1_logic_1_1_logic_a267a602b668e129bdf2aba4ce1ea30ed}\label{class_car_shop_1_1_logic_1_1_logic_a267a602b668e129bdf2aba4ce1ea30ed}} 
+\index{Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}!Get\+Average\+Amount\+For\+Brand@{Get\+Average\+Amount\+For\+Brand}}
+\index{Get\+Average\+Amount\+For\+Brand@{Get\+Average\+Amount\+For\+Brand}!Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}}
+\subsubsection{\texorpdfstring{Get\+Average\+Amount\+For\+Brand()}{GetAverageAmountForBrand()}}
+{\footnotesize\ttfamily float Car\+Shop.\+Logic.\+Logic.\+Get\+Average\+Amount\+For\+Brand (\begin{DoxyParamCaption}\item[{int}]{brandid }\end{DoxyParamCaption})}
+
+
+
+Gets the average amount for the brand. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em brandid} & brand.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+float.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_car_shop_1_1_logic_1_1_logic_a9bf3e72677516747e386faf557a0e105}\label{class_car_shop_1_1_logic_1_1_logic_a9bf3e72677516747e386faf557a0e105}} 
+\index{Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}!Get\+Average\+Amount\+For\+Brand\+By\+Country@{Get\+Average\+Amount\+For\+Brand\+By\+Country}}
+\index{Get\+Average\+Amount\+For\+Brand\+By\+Country@{Get\+Average\+Amount\+For\+Brand\+By\+Country}!Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}}
+\subsubsection{\texorpdfstring{Get\+Average\+Amount\+For\+Brand\+By\+Country()}{GetAverageAmountForBrandByCountry()}}
+{\footnotesize\ttfamily float Car\+Shop.\+Logic.\+Logic.\+Get\+Average\+Amount\+For\+Brand\+By\+Country (\begin{DoxyParamCaption}\item[{string}]{country }\end{DoxyParamCaption})}
+
+
+
+Gets the average for the brand by country. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em country} & country.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+float.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_car_shop_1_1_logic_1_1_logic_ae9538c7d94f55438dd503f82cfe8ac5c}\label{class_car_shop_1_1_logic_1_1_logic_ae9538c7d94f55438dd503f82cfe8ac5c}} 
+\index{Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}!Get\+Average\+For\+Extra\+Color@{Get\+Average\+For\+Extra\+Color}}
+\index{Get\+Average\+For\+Extra\+Color@{Get\+Average\+For\+Extra\+Color}!Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}}
+\subsubsection{\texorpdfstring{Get\+Average\+For\+Extra\+Color()}{GetAverageForExtraColor()}}
+{\footnotesize\ttfamily float Car\+Shop.\+Logic.\+Logic.\+Get\+Average\+For\+Extra\+Color (\begin{DoxyParamCaption}\item[{string}]{color }\end{DoxyParamCaption})}
+
+
+
+Gets the average for the extra color. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em color} & color.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+float.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_car_shop_1_1_logic_1_1_logic_ac41378bc905997f904da5353b20042a0}\label{class_car_shop_1_1_logic_1_1_logic_ac41378bc905997f904da5353b20042a0}} 
+\index{Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}!Get\+Brands\+Data@{Get\+Brands\+Data}}
+\index{Get\+Brands\+Data@{Get\+Brands\+Data}!Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}}
+\subsubsection{\texorpdfstring{Get\+Brands\+Data()}{GetBrandsData()}}
+{\footnotesize\ttfamily String\+Builder Car\+Shop.\+Logic.\+Logic.\+Get\+Brands\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returns the brand data as a string. 
+
+\begin{DoxyReturn}{Returns}
+String\+Builder.
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_car_shop_1_1_logic_1_1_i_logic_a3fad1ae2fa55b77fedf2688e9915f376}{Car\+Shop.\+Logic.\+I\+Logic}}.
+
+\mbox{\Hypertarget{class_car_shop_1_1_logic_1_1_logic_a74048c2231e34ae8d86a5357a073f0cd}\label{class_car_shop_1_1_logic_1_1_logic_a74048c2231e34ae8d86a5357a073f0cd}} 
+\index{Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}!Get\+Cars\+Data@{Get\+Cars\+Data}}
+\index{Get\+Cars\+Data@{Get\+Cars\+Data}!Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}}
+\subsubsection{\texorpdfstring{Get\+Cars\+Data()}{GetCarsData()}}
+{\footnotesize\ttfamily String\+Builder Car\+Shop.\+Logic.\+Logic.\+Get\+Cars\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returns the car data as a string. 
+
+\begin{DoxyReturn}{Returns}
+String\+Builder.
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_car_shop_1_1_logic_1_1_i_logic_a8e19c6c27464776cae749bb71888716d}{Car\+Shop.\+Logic.\+I\+Logic}}.
+
+\mbox{\Hypertarget{class_car_shop_1_1_logic_1_1_logic_ac829fe0e30078fca2abc5eb64eea4f62}\label{class_car_shop_1_1_logic_1_1_logic_ac829fe0e30078fca2abc5eb64eea4f62}} 
+\index{Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}!Get\+Extras\+Data@{Get\+Extras\+Data}}
+\index{Get\+Extras\+Data@{Get\+Extras\+Data}!Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}}
+\subsubsection{\texorpdfstring{Get\+Extras\+Data()}{GetExtrasData()}}
+{\footnotesize\ttfamily String\+Builder Car\+Shop.\+Logic.\+Logic.\+Get\+Extras\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returns the extra data as a string. 
+
+\begin{DoxyReturn}{Returns}
+String\+Builder.
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_car_shop_1_1_logic_1_1_i_logic_a5ad3fa8e566e99e43a70a5e9f7ffb114}{Car\+Shop.\+Logic.\+I\+Logic}}.
+
+\mbox{\Hypertarget{class_car_shop_1_1_logic_1_1_logic_adffc5bad6d7ef7a2914626b2c27a75c1}\label{class_car_shop_1_1_logic_1_1_logic_adffc5bad6d7ef7a2914626b2c27a75c1}} 
+\index{Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}!Get\+Model\+Extra\+Keys\+Data@{Get\+Model\+Extra\+Keys\+Data}}
+\index{Get\+Model\+Extra\+Keys\+Data@{Get\+Model\+Extra\+Keys\+Data}!Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}}
+\subsubsection{\texorpdfstring{Get\+Model\+Extra\+Keys\+Data()}{GetModelExtraKeysData()}}
+{\footnotesize\ttfamily String\+Builder Car\+Shop.\+Logic.\+Logic.\+Get\+Model\+Extra\+Keys\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returns the model extra data as a string. 
+
+\begin{DoxyReturn}{Returns}
+String\+Builder.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_car_shop_1_1_logic_1_1_logic_abeb648b7fcd87060c3fcbfeef3cda77f}\label{class_car_shop_1_1_logic_1_1_logic_abeb648b7fcd87060c3fcbfeef3cda77f}} 
+\index{Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}!Insert\+Brand\+Data@{Insert\+Brand\+Data}}
+\index{Insert\+Brand\+Data@{Insert\+Brand\+Data}!Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}}
+\subsubsection{\texorpdfstring{Insert\+Brand\+Data()}{InsertBrandData()}}
+{\footnotesize\ttfamily virtual bool Car\+Shop.\+Logic.\+Logic.\+Insert\+Brand\+Data (\begin{DoxyParamCaption}\item[{string}]{name,  }\item[{string}]{country,  }\item[{string}]{url,  }\item[{int}]{foundation,  }\item[{int}]{annualtraffic }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Inserts brand data to the db. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & name.\\
+\hline
+{\em country} & country.\\
+\hline
+{\em url} & url.\\
+\hline
+{\em foundation} & foundation.\\
+\hline
+{\em annualtraffic} & traffic.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True/\+False.
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_car_shop_1_1_logic_1_1_i_logic_a3be954920563765e2f6a2ea6d62b4159}{Car\+Shop.\+Logic.\+I\+Logic}}.
+
+\mbox{\Hypertarget{class_car_shop_1_1_logic_1_1_logic_a69bae72bc58ca004bb75e39be1f275c8}\label{class_car_shop_1_1_logic_1_1_logic_a69bae72bc58ca004bb75e39be1f275c8}} 
+\index{Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}!Insert\+Car\+Data@{Insert\+Car\+Data}}
+\index{Insert\+Car\+Data@{Insert\+Car\+Data}!Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}}
+\subsubsection{\texorpdfstring{Insert\+Car\+Data()}{InsertCarData()}}
+{\footnotesize\ttfamily bool Car\+Shop.\+Logic.\+Logic.\+Insert\+Car\+Data (\begin{DoxyParamCaption}\item[{int}]{brandid,  }\item[{string}]{name,  }\item[{Date\+Time}]{releasedate,  }\item[{int}]{enginevolume,  }\item[{int}]{horsepower,  }\item[{int}]{baseprice }\end{DoxyParamCaption})}
+
+
+
+Inserts a car data to the db. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em brandid} & b.\\
+\hline
+{\em name} & name.\\
+\hline
+{\em releasedate} & date.\\
+\hline
+{\em enginevolume} & volume.\\
+\hline
+{\em horsepower} & power.\\
+\hline
+{\em baseprice} & price.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True/\+False.
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_car_shop_1_1_logic_1_1_i_logic_a0104ebc2edcff4017359ed2efc5dd7d3}{Car\+Shop.\+Logic.\+I\+Logic}}.
+
+\mbox{\Hypertarget{class_car_shop_1_1_logic_1_1_logic_a6550f647c3e3ea03f12ef30ce5340efe}\label{class_car_shop_1_1_logic_1_1_logic_a6550f647c3e3ea03f12ef30ce5340efe}} 
+\index{Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}!Insert\+Car\+Extra\+Data@{Insert\+Car\+Extra\+Data}}
+\index{Insert\+Car\+Extra\+Data@{Insert\+Car\+Extra\+Data}!Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}}
+\subsubsection{\texorpdfstring{Insert\+Car\+Extra\+Data()}{InsertCarExtraData()}}
+{\footnotesize\ttfamily bool Car\+Shop.\+Logic.\+Logic.\+Insert\+Car\+Extra\+Data (\begin{DoxyParamCaption}\item[{int}]{carid,  }\item[{int}]{extraid }\end{DoxyParamCaption})}
+
+
+
+Inserts cardataextra. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em carid} & carid.\\
+\hline
+{\em extraid} & extraid.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True/\+False.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_car_shop_1_1_logic_1_1_logic_a6534bb6d8a60c3afa39c99dd1fe0747b}\label{class_car_shop_1_1_logic_1_1_logic_a6534bb6d8a60c3afa39c99dd1fe0747b}} 
+\index{Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}!Insert\+Extra\+Data@{Insert\+Extra\+Data}}
+\index{Insert\+Extra\+Data@{Insert\+Extra\+Data}!Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}}
+\subsubsection{\texorpdfstring{Insert\+Extra\+Data()}{InsertExtraData()}}
+{\footnotesize\ttfamily bool Car\+Shop.\+Logic.\+Logic.\+Insert\+Extra\+Data (\begin{DoxyParamCaption}\item[{string}]{categoryname,  }\item[{string}]{name,  }\item[{int}]{price,  }\item[{string}]{color,  }\item[{bool}]{canbeusedmoretimes }\end{DoxyParamCaption})}
+
+
+
+Inserts extra data to the db. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em categoryname} & cn.\\
+\hline
+{\em name} & name.\\
+\hline
+{\em price} & price.\\
+\hline
+{\em color} & color.\\
+\hline
+{\em canbeusedmoretimes} & canbeused.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True/\+False.
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_car_shop_1_1_logic_1_1_i_logic_ab6555201068cf4a875c3075ce425345e}{Car\+Shop.\+Logic.\+I\+Logic}}.
+
+\mbox{\Hypertarget{class_car_shop_1_1_logic_1_1_logic_ab17048dea509f9de447af1ad960b012c}\label{class_car_shop_1_1_logic_1_1_logic_ab17048dea509f9de447af1ad960b012c}} 
+\index{Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}!Update\+Brand\+Data@{Update\+Brand\+Data}}
+\index{Update\+Brand\+Data@{Update\+Brand\+Data}!Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}}
+\subsubsection{\texorpdfstring{Update\+Brand\+Data()}{UpdateBrandData()}}
+{\footnotesize\ttfamily bool Car\+Shop.\+Logic.\+Logic.\+Update\+Brand\+Data (\begin{DoxyParamCaption}\item[{int}]{iD,  }\item[{string}]{name,  }\item[{string}]{country,  }\item[{string}]{url,  }\item[{int}]{foundation,  }\item[{int}]{annualtraffic }\end{DoxyParamCaption})}
+
+
+
+Update\textquotesingle{}s brand data to the specified parameters. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em iD} & id.\\
+\hline
+{\em name} & name.\\
+\hline
+{\em country} & country.\\
+\hline
+{\em url} & url.\\
+\hline
+{\em foundation} & foundation.\\
+\hline
+{\em annualtraffic} & traffic.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True/\+False.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_car_shop_1_1_logic_1_1_logic_a0a2f1ef0aa8204e30e8b3f86b1906a8d}\label{class_car_shop_1_1_logic_1_1_logic_a0a2f1ef0aa8204e30e8b3f86b1906a8d}} 
+\index{Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}!Update\+Car\+Data@{Update\+Car\+Data}}
+\index{Update\+Car\+Data@{Update\+Car\+Data}!Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}}
+\subsubsection{\texorpdfstring{Update\+Car\+Data()}{UpdateCarData()}}
+{\footnotesize\ttfamily bool Car\+Shop.\+Logic.\+Logic.\+Update\+Car\+Data (\begin{DoxyParamCaption}\item[{int}]{iD,  }\item[{int}]{brandid,  }\item[{string}]{name,  }\item[{Date\+Time}]{releasedate,  }\item[{int}]{enginevolume,  }\item[{int}]{horsepower,  }\item[{int}]{baseprice }\end{DoxyParamCaption})}
+
+
+
+Update\textquotesingle{}s car data to the specified parameters. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em iD} & id.\\
+\hline
+{\em brandid} & brand.\\
+\hline
+{\em name} & name.\\
+\hline
+{\em releasedate} & release.\\
+\hline
+{\em enginevolume} & engine.\\
+\hline
+{\em horsepower} & horse.\\
+\hline
+{\em baseprice} & price.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True/\+False.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_car_shop_1_1_logic_1_1_logic_ac692faa4c875e4dca31d23a3f71588b8}\label{class_car_shop_1_1_logic_1_1_logic_ac692faa4c875e4dca31d23a3f71588b8}} 
+\index{Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}!Update\+Extra\+Data@{Update\+Extra\+Data}}
+\index{Update\+Extra\+Data@{Update\+Extra\+Data}!Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}}
+\subsubsection{\texorpdfstring{Update\+Extra\+Data()}{UpdateExtraData()}}
+{\footnotesize\ttfamily bool Car\+Shop.\+Logic.\+Logic.\+Update\+Extra\+Data (\begin{DoxyParamCaption}\item[{int}]{iD,  }\item[{string}]{categoryname,  }\item[{string}]{name,  }\item[{int}]{price,  }\item[{string}]{color,  }\item[{bool}]{canbeusedmoretimes }\end{DoxyParamCaption})}
+
+
+
+Update\textquotesingle{}s extra data to the specified parameters. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em iD} & id.\\
+\hline
+{\em categoryname} & cat.\\
+\hline
+{\em name} & name.\\
+\hline
+{\em price} & price.\\
+\hline
+{\em color} & color.\\
+\hline
+{\em canbeusedmoretimes} & moretimes.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True/\+False.
+\end{DoxyReturn}
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{class_car_shop_1_1_logic_1_1_logic_afd4e310134ff008f7726801974519e46}\label{class_car_shop_1_1_logic_1_1_logic_afd4e310134ff008f7726801974519e46}} 
+\index{Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}!Helper@{Helper}}
+\index{Helper@{Helper}!Car\+Shop\+::\+Logic\+::\+Logic@{Car\+Shop\+::\+Logic\+::\+Logic}}
+\subsubsection{\texorpdfstring{Helper}{Helper}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{class_car_shop_1_1_repository_1_1_repository_helper}{Repository\+Helper}} Car\+Shop.\+Logic.\+Logic.\+Helper\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets the Repository\+Helper instance. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+Users/\+Dre\+Ta\+X/\+Documents/\+Visual Studio 2013/\+Prog3\+\_\+\+Beadando/\+C\+S\+H\+A\+R\+P/\+O\+E\+N\+I\+K\+\_\+\+P\+R\+O\+G3\+\_\+2018\+\_\+2\+\_\+\+A\+S4\+D\+C\+D/\+Car\+Shop.\+Logic/Logic.\+cs\end{DoxyCompactItemize}

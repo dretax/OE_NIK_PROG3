@@ -1,0 +1,282 @@
+\hypertarget{class_car_shop_1_1_data_1_1_data_base_handler}{}\section{Car\+Shop.\+Data.\+Data\+Base\+Handler Class Reference}
+\label{class_car_shop_1_1_data_1_1_data_base_handler}\index{Car\+Shop.\+Data.\+Data\+Base\+Handler@{Car\+Shop.\+Data.\+Data\+Base\+Handler}}
+
+
+Handles the projects inner read-\/write method calls for the database.  
+
+
+Inheritance diagram for Car\+Shop.\+Data.\+Data\+Base\+Handler\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_car_shop_1_1_data_1_1_data_base_handler}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_car_shop_1_1_data_1_1_data_base_handler_ab75102127241cfcc67aecbbc21f6ad59}{Add\+New\+Brand}} (\mbox{\hyperlink{class_car_shop_1_1_data_1_1automarkak}{automarkak}} auto)
+\begin{DoxyCompactList}\small\item\em Adds a new brand to the database. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_car_shop_1_1_data_1_1_data_base_handler_a5f0973e7680a685c73f1ccec00b75701}{Add\+New\+Extra}} (\mbox{\hyperlink{class_car_shop_1_1_data_1_1extrak}{extrak}} extra)
+\begin{DoxyCompactList}\small\item\em Adds a new extra to the database. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_car_shop_1_1_data_1_1_data_base_handler_aab105b74a843101ccc77a235e177badc}{Add\+New\+Car}} (\mbox{\hyperlink{class_car_shop_1_1_data_1_1modellek}{modellek}} modell)
+\begin{DoxyCompactList}\small\item\em Adds a new car. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_car_shop_1_1_data_1_1_data_base_handler_a20d8fe16deb78c4e3cd284e03db8a667}{Add\+New\+Car\+Extra}} (\mbox{\hyperlink{class_car_shop_1_1_data_1_1modellextrakapcsolo}{modellextrakapcsolo}} me)
+\begin{DoxyCompactList}\small\item\em Adds a new car extra to the database. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_car_shop_1_1_data_1_1_data_base_handler_adc585650f1061f34034769e941dd05ec}{Delete\+Brand}} (\mbox{\hyperlink{class_car_shop_1_1_data_1_1automarkak}{automarkak}} auto)
+\begin{DoxyCompactList}\small\item\em Deletes brand from the db. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_car_shop_1_1_data_1_1_data_base_handler_afcd19abfce52c381a2020e404d4350d4}{Delete\+Extra}} (\mbox{\hyperlink{class_car_shop_1_1_data_1_1extrak}{extrak}} extra)
+\begin{DoxyCompactList}\small\item\em Deletes an extra from the db. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_car_shop_1_1_data_1_1_data_base_handler_a1ddb3e7a30ee321d3491593519734fec}{Delete\+Car}} (\mbox{\hyperlink{class_car_shop_1_1_data_1_1modellek}{modellek}} md)
+\begin{DoxyCompactList}\small\item\em Deletes a car from the db. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_car_shop_1_1_data_1_1_data_base_handler_aaa26584fccb994deb54909269824f550}{Delete\+Car\+Extra}} (\mbox{\hyperlink{class_car_shop_1_1_data_1_1modellextrakapcsolo}{modellextrakapcsolo}} me)
+\begin{DoxyCompactList}\small\item\em Deletes a carextra. \end{DoxyCompactList}\item 
+virtual List$<$ \mbox{\hyperlink{class_car_shop_1_1_data_1_1automarkak}{automarkak}} $>$ \mbox{\hyperlink{class_car_shop_1_1_data_1_1_data_base_handler_a30bf4a331f9a80dde8d5ffbe7c0b2c9d}{Get\+All\+Brands}} ()
+\begin{DoxyCompactList}\small\item\em Returns all current brands from the database. \end{DoxyCompactList}\item 
+virtual List$<$ \mbox{\hyperlink{class_car_shop_1_1_data_1_1extrak}{extrak}} $>$ \mbox{\hyperlink{class_car_shop_1_1_data_1_1_data_base_handler_a22ddee3a299ba5c46b2715e546210264}{Get\+All\+Extras}} ()
+\begin{DoxyCompactList}\small\item\em Returns all extras from the db. \end{DoxyCompactList}\item 
+virtual List$<$ \mbox{\hyperlink{class_car_shop_1_1_data_1_1modellek}{modellek}} $>$ \mbox{\hyperlink{class_car_shop_1_1_data_1_1_data_base_handler_a6ae5db47545f7b328ac0d6425371bf06}{Get\+All\+Cars}} ()
+\begin{DoxyCompactList}\small\item\em Returns all cars from the db. \end{DoxyCompactList}\item 
+virtual List$<$ \mbox{\hyperlink{class_car_shop_1_1_data_1_1modellextrakapcsolo}{modellextrakapcsolo}} $>$ \mbox{\hyperlink{class_car_shop_1_1_data_1_1_data_base_handler_a47536b1229086b5be7702d48454fca03}{Get\+All\+Model\+Extra\+Keys}} ()
+\begin{DoxyCompactList}\small\item\em Returns all modelextras from the db. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_car_shop_1_1_data_1_1_data_base_handler_abe88f4775a028dfdc5231262ee99f8f5}{Save\+DB}} ()
+\begin{DoxyCompactList}\small\item\em Saves the DB. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_car_shop_1_1_data_1_1_data_base_handler_a88288d20c2c3852b7aa0ebb234418483}\label{class_car_shop_1_1_data_1_1_data_base_handler_a88288d20c2c3852b7aa0ebb234418483}} 
+void \mbox{\hyperlink{class_car_shop_1_1_data_1_1_data_base_handler_a88288d20c2c3852b7aa0ebb234418483}{Dispose}} ()
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_car_shop_1_1_data_1_1_data_base_handler}{Data\+Base\+Handler}} \mbox{\hyperlink{class_car_shop_1_1_data_1_1_data_base_handler_a25f9fd5f7b7ea4f7a87eecfccf894d4a}{Instance}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the instance of the \mbox{\hyperlink{class_car_shop_1_1_data_1_1_data_base_handler}{Data\+Base\+Handler}}. \end{DoxyCompactList}\item 
+virtual List$<$ string $>$ \mbox{\hyperlink{class_car_shop_1_1_data_1_1_data_base_handler_a4af389005c2397df7a5fa9bfa8a7efef}{Tables\+Names}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets all Table\textquotesingle{}s names from the db. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{class_car_shop_1_1_data_1_1carshopdatabase_entities1}{carshopdatabase\+Entities1}} \mbox{\hyperlink{class_car_shop_1_1_data_1_1_data_base_handler_a512a99c830f8ade3a7cc5a36aa490784}{Car\+Shop\+Data\+Base}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the Car\+Shop\+Data\+Base instance. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Handles the projects inner read-\/write method calls for the database. 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_car_shop_1_1_data_1_1_data_base_handler_ab75102127241cfcc67aecbbc21f6ad59}\label{class_car_shop_1_1_data_1_1_data_base_handler_ab75102127241cfcc67aecbbc21f6ad59}} 
+\index{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler@{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler}!Add\+New\+Brand@{Add\+New\+Brand}}
+\index{Add\+New\+Brand@{Add\+New\+Brand}!Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler@{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler}}
+\subsubsection{\texorpdfstring{Add\+New\+Brand()}{AddNewBrand()}}
+{\footnotesize\ttfamily virtual void Car\+Shop.\+Data.\+Data\+Base\+Handler.\+Add\+New\+Brand (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_car_shop_1_1_data_1_1automarkak}{automarkak}}}]{auto }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Adds a new brand to the database. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em auto} & car brand.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_car_shop_1_1_data_1_1_data_base_handler_aab105b74a843101ccc77a235e177badc}\label{class_car_shop_1_1_data_1_1_data_base_handler_aab105b74a843101ccc77a235e177badc}} 
+\index{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler@{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler}!Add\+New\+Car@{Add\+New\+Car}}
+\index{Add\+New\+Car@{Add\+New\+Car}!Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler@{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler}}
+\subsubsection{\texorpdfstring{Add\+New\+Car()}{AddNewCar()}}
+{\footnotesize\ttfamily void Car\+Shop.\+Data.\+Data\+Base\+Handler.\+Add\+New\+Car (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_car_shop_1_1_data_1_1modellek}{modellek}}}]{modell }\end{DoxyParamCaption})}
+
+
+
+Adds a new car. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em modell} & model.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_car_shop_1_1_data_1_1_data_base_handler_a20d8fe16deb78c4e3cd284e03db8a667}\label{class_car_shop_1_1_data_1_1_data_base_handler_a20d8fe16deb78c4e3cd284e03db8a667}} 
+\index{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler@{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler}!Add\+New\+Car\+Extra@{Add\+New\+Car\+Extra}}
+\index{Add\+New\+Car\+Extra@{Add\+New\+Car\+Extra}!Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler@{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler}}
+\subsubsection{\texorpdfstring{Add\+New\+Car\+Extra()}{AddNewCarExtra()}}
+{\footnotesize\ttfamily void Car\+Shop.\+Data.\+Data\+Base\+Handler.\+Add\+New\+Car\+Extra (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_car_shop_1_1_data_1_1modellextrakapcsolo}{modellextrakapcsolo}}}]{me }\end{DoxyParamCaption})}
+
+
+
+Adds a new car extra to the database. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em me} & kapcsolo.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_car_shop_1_1_data_1_1_data_base_handler_a5f0973e7680a685c73f1ccec00b75701}\label{class_car_shop_1_1_data_1_1_data_base_handler_a5f0973e7680a685c73f1ccec00b75701}} 
+\index{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler@{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler}!Add\+New\+Extra@{Add\+New\+Extra}}
+\index{Add\+New\+Extra@{Add\+New\+Extra}!Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler@{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler}}
+\subsubsection{\texorpdfstring{Add\+New\+Extra()}{AddNewExtra()}}
+{\footnotesize\ttfamily void Car\+Shop.\+Data.\+Data\+Base\+Handler.\+Add\+New\+Extra (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_car_shop_1_1_data_1_1extrak}{extrak}}}]{extra }\end{DoxyParamCaption})}
+
+
+
+Adds a new extra to the database. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em extra} & extra.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_car_shop_1_1_data_1_1_data_base_handler_adc585650f1061f34034769e941dd05ec}\label{class_car_shop_1_1_data_1_1_data_base_handler_adc585650f1061f34034769e941dd05ec}} 
+\index{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler@{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler}!Delete\+Brand@{Delete\+Brand}}
+\index{Delete\+Brand@{Delete\+Brand}!Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler@{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler}}
+\subsubsection{\texorpdfstring{Delete\+Brand()}{DeleteBrand()}}
+{\footnotesize\ttfamily void Car\+Shop.\+Data.\+Data\+Base\+Handler.\+Delete\+Brand (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_car_shop_1_1_data_1_1automarkak}{automarkak}}}]{auto }\end{DoxyParamCaption})}
+
+
+
+Deletes brand from the db. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em auto} & auto.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_car_shop_1_1_data_1_1_data_base_handler_a1ddb3e7a30ee321d3491593519734fec}\label{class_car_shop_1_1_data_1_1_data_base_handler_a1ddb3e7a30ee321d3491593519734fec}} 
+\index{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler@{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler}!Delete\+Car@{Delete\+Car}}
+\index{Delete\+Car@{Delete\+Car}!Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler@{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler}}
+\subsubsection{\texorpdfstring{Delete\+Car()}{DeleteCar()}}
+{\footnotesize\ttfamily virtual void Car\+Shop.\+Data.\+Data\+Base\+Handler.\+Delete\+Car (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_car_shop_1_1_data_1_1modellek}{modellek}}}]{md }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Deletes a car from the db. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em md} & md.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_car_shop_1_1_data_1_1_data_base_handler_aaa26584fccb994deb54909269824f550}\label{class_car_shop_1_1_data_1_1_data_base_handler_aaa26584fccb994deb54909269824f550}} 
+\index{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler@{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler}!Delete\+Car\+Extra@{Delete\+Car\+Extra}}
+\index{Delete\+Car\+Extra@{Delete\+Car\+Extra}!Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler@{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler}}
+\subsubsection{\texorpdfstring{Delete\+Car\+Extra()}{DeleteCarExtra()}}
+{\footnotesize\ttfamily void Car\+Shop.\+Data.\+Data\+Base\+Handler.\+Delete\+Car\+Extra (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_car_shop_1_1_data_1_1modellextrakapcsolo}{modellextrakapcsolo}}}]{me }\end{DoxyParamCaption})}
+
+
+
+Deletes a carextra. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em me} & me.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_car_shop_1_1_data_1_1_data_base_handler_afcd19abfce52c381a2020e404d4350d4}\label{class_car_shop_1_1_data_1_1_data_base_handler_afcd19abfce52c381a2020e404d4350d4}} 
+\index{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler@{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler}!Delete\+Extra@{Delete\+Extra}}
+\index{Delete\+Extra@{Delete\+Extra}!Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler@{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler}}
+\subsubsection{\texorpdfstring{Delete\+Extra()}{DeleteExtra()}}
+{\footnotesize\ttfamily void Car\+Shop.\+Data.\+Data\+Base\+Handler.\+Delete\+Extra (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_car_shop_1_1_data_1_1extrak}{extrak}}}]{extra }\end{DoxyParamCaption})}
+
+
+
+Deletes an extra from the db. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em extra} & extra.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_car_shop_1_1_data_1_1_data_base_handler_a30bf4a331f9a80dde8d5ffbe7c0b2c9d}\label{class_car_shop_1_1_data_1_1_data_base_handler_a30bf4a331f9a80dde8d5ffbe7c0b2c9d}} 
+\index{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler@{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler}!Get\+All\+Brands@{Get\+All\+Brands}}
+\index{Get\+All\+Brands@{Get\+All\+Brands}!Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler@{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler}}
+\subsubsection{\texorpdfstring{Get\+All\+Brands()}{GetAllBrands()}}
+{\footnotesize\ttfamily virtual List$<$\mbox{\hyperlink{class_car_shop_1_1_data_1_1automarkak}{automarkak}}$>$ Car\+Shop.\+Data.\+Data\+Base\+Handler.\+Get\+All\+Brands (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Returns all current brands from the database. 
+
+\begin{DoxyReturn}{Returns}
+automarkak.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_car_shop_1_1_data_1_1_data_base_handler_a6ae5db47545f7b328ac0d6425371bf06}\label{class_car_shop_1_1_data_1_1_data_base_handler_a6ae5db47545f7b328ac0d6425371bf06}} 
+\index{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler@{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler}!Get\+All\+Cars@{Get\+All\+Cars}}
+\index{Get\+All\+Cars@{Get\+All\+Cars}!Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler@{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler}}
+\subsubsection{\texorpdfstring{Get\+All\+Cars()}{GetAllCars()}}
+{\footnotesize\ttfamily virtual List$<$\mbox{\hyperlink{class_car_shop_1_1_data_1_1modellek}{modellek}}$>$ Car\+Shop.\+Data.\+Data\+Base\+Handler.\+Get\+All\+Cars (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Returns all cars from the db. 
+
+\begin{DoxyReturn}{Returns}
+modellek.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_car_shop_1_1_data_1_1_data_base_handler_a22ddee3a299ba5c46b2715e546210264}\label{class_car_shop_1_1_data_1_1_data_base_handler_a22ddee3a299ba5c46b2715e546210264}} 
+\index{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler@{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler}!Get\+All\+Extras@{Get\+All\+Extras}}
+\index{Get\+All\+Extras@{Get\+All\+Extras}!Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler@{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler}}
+\subsubsection{\texorpdfstring{Get\+All\+Extras()}{GetAllExtras()}}
+{\footnotesize\ttfamily virtual List$<$\mbox{\hyperlink{class_car_shop_1_1_data_1_1extrak}{extrak}}$>$ Car\+Shop.\+Data.\+Data\+Base\+Handler.\+Get\+All\+Extras (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Returns all extras from the db. 
+
+\begin{DoxyReturn}{Returns}
+extrak.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_car_shop_1_1_data_1_1_data_base_handler_a47536b1229086b5be7702d48454fca03}\label{class_car_shop_1_1_data_1_1_data_base_handler_a47536b1229086b5be7702d48454fca03}} 
+\index{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler@{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler}!Get\+All\+Model\+Extra\+Keys@{Get\+All\+Model\+Extra\+Keys}}
+\index{Get\+All\+Model\+Extra\+Keys@{Get\+All\+Model\+Extra\+Keys}!Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler@{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler}}
+\subsubsection{\texorpdfstring{Get\+All\+Model\+Extra\+Keys()}{GetAllModelExtraKeys()}}
+{\footnotesize\ttfamily virtual List$<$\mbox{\hyperlink{class_car_shop_1_1_data_1_1modellextrakapcsolo}{modellextrakapcsolo}}$>$ Car\+Shop.\+Data.\+Data\+Base\+Handler.\+Get\+All\+Model\+Extra\+Keys (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Returns all modelextras from the db. 
+
+\begin{DoxyReturn}{Returns}
+modellextrakapcsolo.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_car_shop_1_1_data_1_1_data_base_handler_abe88f4775a028dfdc5231262ee99f8f5}\label{class_car_shop_1_1_data_1_1_data_base_handler_abe88f4775a028dfdc5231262ee99f8f5}} 
+\index{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler@{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler}!Save\+DB@{Save\+DB}}
+\index{Save\+DB@{Save\+DB}!Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler@{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler}}
+\subsubsection{\texorpdfstring{Save\+D\+B()}{SaveDB()}}
+{\footnotesize\ttfamily virtual void Car\+Shop.\+Data.\+Data\+Base\+Handler.\+Save\+DB (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Saves the DB. 
+
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{class_car_shop_1_1_data_1_1_data_base_handler_a512a99c830f8ade3a7cc5a36aa490784}\label{class_car_shop_1_1_data_1_1_data_base_handler_a512a99c830f8ade3a7cc5a36aa490784}} 
+\index{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler@{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler}!Car\+Shop\+Data\+Base@{Car\+Shop\+Data\+Base}}
+\index{Car\+Shop\+Data\+Base@{Car\+Shop\+Data\+Base}!Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler@{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler}}
+\subsubsection{\texorpdfstring{Car\+Shop\+Data\+Base}{CarShopDataBase}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{class_car_shop_1_1_data_1_1carshopdatabase_entities1}{carshopdatabase\+Entities1}} Car\+Shop.\+Data.\+Data\+Base\+Handler.\+Car\+Shop\+Data\+Base\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets the Car\+Shop\+Data\+Base instance. 
+
+\mbox{\Hypertarget{class_car_shop_1_1_data_1_1_data_base_handler_a25f9fd5f7b7ea4f7a87eecfccf894d4a}\label{class_car_shop_1_1_data_1_1_data_base_handler_a25f9fd5f7b7ea4f7a87eecfccf894d4a}} 
+\index{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler@{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler}!Instance@{Instance}}
+\index{Instance@{Instance}!Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler@{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler}}
+\subsubsection{\texorpdfstring{Instance}{Instance}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_car_shop_1_1_data_1_1_data_base_handler}{Data\+Base\+Handler}} Car\+Shop.\+Data.\+Data\+Base\+Handler.\+Instance\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+
+
+Gets the instance of the \mbox{\hyperlink{class_car_shop_1_1_data_1_1_data_base_handler}{Data\+Base\+Handler}}. 
+
+\mbox{\Hypertarget{class_car_shop_1_1_data_1_1_data_base_handler_a4af389005c2397df7a5fa9bfa8a7efef}\label{class_car_shop_1_1_data_1_1_data_base_handler_a4af389005c2397df7a5fa9bfa8a7efef}} 
+\index{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler@{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler}!Tables\+Names@{Tables\+Names}}
+\index{Tables\+Names@{Tables\+Names}!Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler@{Car\+Shop\+::\+Data\+::\+Data\+Base\+Handler}}
+\subsubsection{\texorpdfstring{Tables\+Names}{TablesNames}}
+{\footnotesize\ttfamily virtual List$<$string$>$ Car\+Shop.\+Data.\+Data\+Base\+Handler.\+Tables\+Names\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets all Table\textquotesingle{}s names from the db. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+Users/\+Dre\+Ta\+X/\+Documents/\+Visual Studio 2013/\+Prog3\+\_\+\+Beadando/\+C\+S\+H\+A\+R\+P/\+O\+E\+N\+I\+K\+\_\+\+P\+R\+O\+G3\+\_\+2018\+\_\+2\+\_\+\+A\+S4\+D\+C\+D/\+Car\+Shop.\+Data/Data\+Base\+Handler.\+cs\end{DoxyCompactItemize}

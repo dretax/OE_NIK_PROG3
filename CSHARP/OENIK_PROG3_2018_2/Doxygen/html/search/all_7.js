@@ -1,0 +1,16 @@
+var searchData=
+[
+  ['id',['Id',['../class_car_shop_1_1_data_1_1automarkak.html#a14c416508ac4b5c45851a22379a3187f',1,'CarShop.Data.automarkak.Id()'],['../class_car_shop_1_1_data_1_1extrak.html#aa270776237b9d5e360264f39c5ec24ca',1,'CarShop.Data.extrak.Id()'],['../class_car_shop_1_1_data_1_1modellek.html#a783e9d72353d859d209544c6dda336e7',1,'CarShop.Data.modellek.Id()'],['../class_car_shop_1_1_data_1_1modellextrakapcsolo.html#a285cca2610d4b8910d72ffda81f7da54',1,'CarShop.Data.modellextrakapcsolo.Id()']]],
+  ['ilogic',['ILogic',['../interface_car_shop_1_1_logic_1_1_i_logic.html',1,'CarShop::Logic']]],
+  ['insert',['Insert',['../class_car_shop_1_1_repository_1_1_brand_repository.html#a100a758892ec499a3497cf1959b0c368',1,'CarShop.Repository.BrandRepository.Insert()'],['../class_car_shop_1_1_repository_1_1_car_extra_keys_repository.html#a2b68866de9559d8363b571e1dc79e877',1,'CarShop.Repository.CarExtraKeysRepository.Insert()'],['../class_car_shop_1_1_repository_1_1_car_respository.html#aa4c68a6789697071168f24a158091140',1,'CarShop.Repository.CarRespository.Insert()'],['../class_car_shop_1_1_repository_1_1_extra_repository.html#a52a8367258e2eb413f8160a040c6ac61',1,'CarShop.Repository.ExtraRepository.Insert()']]],
+  ['insertbranddata',['InsertBrandData',['../interface_car_shop_1_1_logic_1_1_i_logic.html#a3be954920563765e2f6a2ea6d62b4159',1,'CarShop.Logic.ILogic.InsertBrandData()'],['../class_car_shop_1_1_logic_1_1_logic.html#abeb648b7fcd87060c3fcbfeef3cda77f',1,'CarShop.Logic.Logic.InsertBrandData()']]],
+  ['insertcardata',['InsertCarData',['../interface_car_shop_1_1_logic_1_1_i_logic.html#a0104ebc2edcff4017359ed2efc5dd7d3',1,'CarShop.Logic.ILogic.InsertCarData()'],['../class_car_shop_1_1_logic_1_1_logic.html#a69bae72bc58ca004bb75e39be1f275c8',1,'CarShop.Logic.Logic.InsertCarData()']]],
+  ['insertcarextradata',['InsertCarExtraData',['../class_car_shop_1_1_logic_1_1_logic.html#a6550f647c3e3ea03f12ef30ce5340efe',1,'CarShop::Logic::Logic']]],
+  ['insertextradata',['InsertExtraData',['../interface_car_shop_1_1_logic_1_1_i_logic.html#ab6555201068cf4a875c3075ce425345e',1,'CarShop.Logic.ILogic.InsertExtraData()'],['../class_car_shop_1_1_logic_1_1_logic.html#a6534bb6d8a60c3afa39c99dd1fe0747b',1,'CarShop.Logic.Logic.InsertExtraData()']]],
+  ['instance',['Instance',['../class_car_shop_1_1_data_1_1_data_base_handler.html#a25f9fd5f7b7ea4f7a87eecfccf894d4a',1,'CarShop::Data::DataBaseHandler']]],
+  ['irepository',['IRepository',['../interface_car_shop_1_1_repository_1_1_i_repository.html',1,'CarShop::Repository']]],
+  ['irepository_3c_20automarkak_20_3e',['IRepository&lt; automarkak &gt;',['../interface_car_shop_1_1_repository_1_1_i_repository.html',1,'CarShop::Repository']]],
+  ['irepository_3c_20extrak_20_3e',['IRepository&lt; extrak &gt;',['../interface_car_shop_1_1_repository_1_1_i_repository.html',1,'CarShop::Repository']]],
+  ['irepository_3c_20modellek_20_3e',['IRepository&lt; modellek &gt;',['../interface_car_shop_1_1_repository_1_1_i_repository.html',1,'CarShop::Repository']]],
+  ['irepository_3c_20modellextrakapcsolo_20_3e',['IRepository&lt; modellextrakapcsolo &gt;',['../interface_car_shop_1_1_repository_1_1_i_repository.html',1,'CarShop::Repository']]]
+];

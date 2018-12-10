@@ -1,0 +1,10 @@
+var searchData=
+[
+  ['cardeletioncheck',['CarDeletionCheck',['../class_car_shop_1_1_logic_1_1_tests_1_1_logic_test.html#a16f135dd6a77ba37e73ca87bb2c510fe',1,'CarShop::Logic::Tests::LogicTest']]],
+  ['carexistencecheck',['CarExistenceCheck',['../class_car_shop_1_1_logic_1_1_tests_1_1_logic_test.html#a54d99bee5812656565ff5cc5ac79d8b9',1,'CarShop::Logic::Tests::LogicTest']]],
+  ['carshopdatabaseentities1',['carshopdatabaseEntities1',['../class_car_shop_1_1_data_1_1carshopdatabase_entities1.html#a4cda828061d80ffe58fcd1225253f4b3',1,'CarShop::Data::carshopdatabaseEntities1']]],
+  ['checkifbrandexists',['CheckIfBrandExists',['../interface_car_shop_1_1_logic_1_1_i_logic.html#a5871000bbf6724abebf701f30113e488',1,'CarShop.Logic.ILogic.CheckIfBrandExists()'],['../class_car_shop_1_1_logic_1_1_logic.html#a6f7a2a96646053b01067455ed0b8d0a5',1,'CarShop.Logic.Logic.CheckIfBrandExists()'],['../class_car_shop_1_1_repository_1_1_brand_repository.html#aa294757567b0f24fbfecaa78d86f47f8',1,'CarShop.Repository.BrandRepository.CheckIfBrandExists()']]],
+  ['checkifcaridexists',['CheckIfCarIDExists',['../interface_car_shop_1_1_logic_1_1_i_logic.html#ab82e00aae902a6d7417b586487568d93',1,'CarShop.Logic.ILogic.CheckIfCarIDExists()'],['../class_car_shop_1_1_logic_1_1_logic.html#aa1e3ab411c53e0498145f1f77cb33766',1,'CarShop.Logic.Logic.CheckIfCarIDExists()'],['../class_car_shop_1_1_repository_1_1_car_respository.html#afc83ebf123476021e0ab66458b12d18a',1,'CarShop.Repository.CarRespository.CheckIfCarIDExists()']]],
+  ['checkifextraidexist',['CheckIfExtraIDExist',['../class_car_shop_1_1_repository_1_1_extra_repository.html#ab50b602e032ffe351ff2e823e7de75f6',1,'CarShop::Repository::ExtraRepository']]],
+  ['checkifextraidexists',['CheckIfExtraIDExists',['../interface_car_shop_1_1_logic_1_1_i_logic.html#a86f7d6d049a74365b7bc3e135f11a539',1,'CarShop.Logic.ILogic.CheckIfExtraIDExists()'],['../class_car_shop_1_1_logic_1_1_logic.html#a1c3a42d859ae472db17293626b87ff30',1,'CarShop.Logic.Logic.CheckIfExtraIDExists()']]]
+];

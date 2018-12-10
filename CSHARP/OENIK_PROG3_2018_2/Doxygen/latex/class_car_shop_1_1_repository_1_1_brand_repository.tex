@@ -1,0 +1,177 @@
+\hypertarget{class_car_shop_1_1_repository_1_1_brand_repository}{}\section{Car\+Shop.\+Repository.\+Brand\+Repository Class Reference}
+\label{class_car_shop_1_1_repository_1_1_brand_repository}\index{Car\+Shop.\+Repository.\+Brand\+Repository@{Car\+Shop.\+Repository.\+Brand\+Repository}}
+
+
+Brand repository handlers.  
+
+
+Inheritance diagram for Car\+Shop.\+Repository.\+Brand\+Repository\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_car_shop_1_1_repository_1_1_brand_repository}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual I\+Queryable$<$ \mbox{\hyperlink{class_car_shop_1_1_data_1_1automarkak}{automarkak}} $>$ \mbox{\hyperlink{class_car_shop_1_1_repository_1_1_brand_repository_a767cffc2be9413fdaefef87e37964cac}{Get\+All}} ()
+\begin{DoxyCompactList}\small\item\em Returns all brands. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_car_shop_1_1_repository_1_1_brand_repository_ac56d251a67ea287168b831d7c14d3448}{Update}} (int id, string name, string country, string url, int foundation, int annualtraffic)
+\begin{DoxyCompactList}\small\item\em Updates brand with the given parameters. \end{DoxyCompactList}\item 
+virtual bool \mbox{\hyperlink{class_car_shop_1_1_repository_1_1_brand_repository_a100a758892ec499a3497cf1959b0c368}{Insert}} (string name, string country, string url, int foundation, int annualtraffic)
+\begin{DoxyCompactList}\small\item\em Inserts car into the repository. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_car_shop_1_1_repository_1_1_brand_repository_a2dfc0f384a3914d6fcc3df0e2e842e4a}{Delete}} (int id)
+\begin{DoxyCompactList}\small\item\em Deletes brand from the DB. \end{DoxyCompactList}\item 
+String\+Builder \mbox{\hyperlink{class_car_shop_1_1_repository_1_1_brand_repository_a7b59be4a7c33c0e49ed4fa7a94c17e50}{Get\+Table\+Contents}} ()
+\begin{DoxyCompactList}\small\item\em Returns the brand repository contents as a string. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_car_shop_1_1_repository_1_1_brand_repository_ab882a12a4dd80da6ba290f43d3b69992}{Get\+Average\+Amount\+For\+Brand\+By\+Country}} (string countryname)
+\begin{DoxyCompactList}\small\item\em Gets the average amount for the brand by country. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_car_shop_1_1_repository_1_1_brand_repository_aa294757567b0f24fbfecaa78d86f47f8}{Check\+If\+Brand\+Exists}} (int id)
+\begin{DoxyCompactList}\small\item\em Checks if the brand exists. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Brand repository handlers. 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_car_shop_1_1_repository_1_1_brand_repository_aa294757567b0f24fbfecaa78d86f47f8}\label{class_car_shop_1_1_repository_1_1_brand_repository_aa294757567b0f24fbfecaa78d86f47f8}} 
+\index{Car\+Shop\+::\+Repository\+::\+Brand\+Repository@{Car\+Shop\+::\+Repository\+::\+Brand\+Repository}!Check\+If\+Brand\+Exists@{Check\+If\+Brand\+Exists}}
+\index{Check\+If\+Brand\+Exists@{Check\+If\+Brand\+Exists}!Car\+Shop\+::\+Repository\+::\+Brand\+Repository@{Car\+Shop\+::\+Repository\+::\+Brand\+Repository}}
+\subsubsection{\texorpdfstring{Check\+If\+Brand\+Exists()}{CheckIfBrandExists()}}
+{\footnotesize\ttfamily bool Car\+Shop.\+Repository.\+Brand\+Repository.\+Check\+If\+Brand\+Exists (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Checks if the brand exists. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & id.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True/\+False.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_car_shop_1_1_repository_1_1_brand_repository_a2dfc0f384a3914d6fcc3df0e2e842e4a}\label{class_car_shop_1_1_repository_1_1_brand_repository_a2dfc0f384a3914d6fcc3df0e2e842e4a}} 
+\index{Car\+Shop\+::\+Repository\+::\+Brand\+Repository@{Car\+Shop\+::\+Repository\+::\+Brand\+Repository}!Delete@{Delete}}
+\index{Delete@{Delete}!Car\+Shop\+::\+Repository\+::\+Brand\+Repository@{Car\+Shop\+::\+Repository\+::\+Brand\+Repository}}
+\subsubsection{\texorpdfstring{Delete()}{Delete()}}
+{\footnotesize\ttfamily bool Car\+Shop.\+Repository.\+Brand\+Repository.\+Delete (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Deletes brand from the DB. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & id.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True/\+False.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_car_shop_1_1_repository_1_1_brand_repository_a767cffc2be9413fdaefef87e37964cac}\label{class_car_shop_1_1_repository_1_1_brand_repository_a767cffc2be9413fdaefef87e37964cac}} 
+\index{Car\+Shop\+::\+Repository\+::\+Brand\+Repository@{Car\+Shop\+::\+Repository\+::\+Brand\+Repository}!Get\+All@{Get\+All}}
+\index{Get\+All@{Get\+All}!Car\+Shop\+::\+Repository\+::\+Brand\+Repository@{Car\+Shop\+::\+Repository\+::\+Brand\+Repository}}
+\subsubsection{\texorpdfstring{Get\+All()}{GetAll()}}
+{\footnotesize\ttfamily virtual I\+Queryable$<$\mbox{\hyperlink{class_car_shop_1_1_data_1_1automarkak}{automarkak}}$>$ Car\+Shop.\+Repository.\+Brand\+Repository.\+Get\+All (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Returns all brands. 
+
+\begin{DoxyReturn}{Returns}
+automarkak.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_car_shop_1_1_repository_1_1_brand_repository_ab882a12a4dd80da6ba290f43d3b69992}\label{class_car_shop_1_1_repository_1_1_brand_repository_ab882a12a4dd80da6ba290f43d3b69992}} 
+\index{Car\+Shop\+::\+Repository\+::\+Brand\+Repository@{Car\+Shop\+::\+Repository\+::\+Brand\+Repository}!Get\+Average\+Amount\+For\+Brand\+By\+Country@{Get\+Average\+Amount\+For\+Brand\+By\+Country}}
+\index{Get\+Average\+Amount\+For\+Brand\+By\+Country@{Get\+Average\+Amount\+For\+Brand\+By\+Country}!Car\+Shop\+::\+Repository\+::\+Brand\+Repository@{Car\+Shop\+::\+Repository\+::\+Brand\+Repository}}
+\subsubsection{\texorpdfstring{Get\+Average\+Amount\+For\+Brand\+By\+Country()}{GetAverageAmountForBrandByCountry()}}
+{\footnotesize\ttfamily float Car\+Shop.\+Repository.\+Brand\+Repository.\+Get\+Average\+Amount\+For\+Brand\+By\+Country (\begin{DoxyParamCaption}\item[{string}]{countryname }\end{DoxyParamCaption})}
+
+
+
+Gets the average amount for the brand by country. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em countryname} & country.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+float.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_car_shop_1_1_repository_1_1_brand_repository_a7b59be4a7c33c0e49ed4fa7a94c17e50}\label{class_car_shop_1_1_repository_1_1_brand_repository_a7b59be4a7c33c0e49ed4fa7a94c17e50}} 
+\index{Car\+Shop\+::\+Repository\+::\+Brand\+Repository@{Car\+Shop\+::\+Repository\+::\+Brand\+Repository}!Get\+Table\+Contents@{Get\+Table\+Contents}}
+\index{Get\+Table\+Contents@{Get\+Table\+Contents}!Car\+Shop\+::\+Repository\+::\+Brand\+Repository@{Car\+Shop\+::\+Repository\+::\+Brand\+Repository}}
+\subsubsection{\texorpdfstring{Get\+Table\+Contents()}{GetTableContents()}}
+{\footnotesize\ttfamily String\+Builder Car\+Shop.\+Repository.\+Brand\+Repository.\+Get\+Table\+Contents (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returns the brand repository contents as a string. 
+
+\begin{DoxyReturn}{Returns}
+True/\+False.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_car_shop_1_1_repository_1_1_brand_repository_a100a758892ec499a3497cf1959b0c368}\label{class_car_shop_1_1_repository_1_1_brand_repository_a100a758892ec499a3497cf1959b0c368}} 
+\index{Car\+Shop\+::\+Repository\+::\+Brand\+Repository@{Car\+Shop\+::\+Repository\+::\+Brand\+Repository}!Insert@{Insert}}
+\index{Insert@{Insert}!Car\+Shop\+::\+Repository\+::\+Brand\+Repository@{Car\+Shop\+::\+Repository\+::\+Brand\+Repository}}
+\subsubsection{\texorpdfstring{Insert()}{Insert()}}
+{\footnotesize\ttfamily virtual bool Car\+Shop.\+Repository.\+Brand\+Repository.\+Insert (\begin{DoxyParamCaption}\item[{string}]{name,  }\item[{string}]{country,  }\item[{string}]{url,  }\item[{int}]{foundation,  }\item[{int}]{annualtraffic }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Inserts car into the repository. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & name.\\
+\hline
+{\em country} & country.\\
+\hline
+{\em url} & url.\\
+\hline
+{\em foundation} & foundation.\\
+\hline
+{\em annualtraffic} & traffic.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True/\+False.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_car_shop_1_1_repository_1_1_brand_repository_ac56d251a67ea287168b831d7c14d3448}\label{class_car_shop_1_1_repository_1_1_brand_repository_ac56d251a67ea287168b831d7c14d3448}} 
+\index{Car\+Shop\+::\+Repository\+::\+Brand\+Repository@{Car\+Shop\+::\+Repository\+::\+Brand\+Repository}!Update@{Update}}
+\index{Update@{Update}!Car\+Shop\+::\+Repository\+::\+Brand\+Repository@{Car\+Shop\+::\+Repository\+::\+Brand\+Repository}}
+\subsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily bool Car\+Shop.\+Repository.\+Brand\+Repository.\+Update (\begin{DoxyParamCaption}\item[{int}]{id,  }\item[{string}]{name,  }\item[{string}]{country,  }\item[{string}]{url,  }\item[{int}]{foundation,  }\item[{int}]{annualtraffic }\end{DoxyParamCaption})}
+
+
+
+Updates brand with the given parameters. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & id.\\
+\hline
+{\em name} & name.\\
+\hline
+{\em country} & country.\\
+\hline
+{\em url} & url.\\
+\hline
+{\em foundation} & foundation.\\
+\hline
+{\em annualtraffic} & traffic.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True/\+False.
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+Users/\+Dre\+Ta\+X/\+Documents/\+Visual Studio 2013/\+Prog3\+\_\+\+Beadando/\+C\+S\+H\+A\+R\+P/\+O\+E\+N\+I\+K\+\_\+\+P\+R\+O\+G3\+\_\+2018\+\_\+2\+\_\+\+A\+S4\+D\+C\+D/\+Car\+Shop.\+Repository/Brand\+Repository.\+cs\end{DoxyCompactItemize}
